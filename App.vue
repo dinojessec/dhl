@@ -8,7 +8,7 @@
       <div class="row">
         <div class="col mx-auto">
           <!-- put dynamic components here -->
-          <reg-form-one></reg-form-one>
+          <reg-form-five></reg-form-five>
 
         </div>
       </div>
@@ -21,13 +21,13 @@
 
 <script>
 import GlobalNav from "./components/header/GlobalNav";
-import RegFormOne from "./components/student/RegFormOne";
+import RegFormFive from "./components/student/RegFormFive";
 
 export default {
   name: "app",
   components: {
     GlobalNav,
-    RegFormOne
+    RegFormFive
   }
 };
 </script>
